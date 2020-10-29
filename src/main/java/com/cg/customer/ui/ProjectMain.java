@@ -15,7 +15,7 @@ public class ProjectMain {
 		context.refresh();
 		ProjectUi projectUi = context.getBean(ProjectUi.class);
 		projectUi.run();
-		//context.close();
+	
 	}
 	
 }
